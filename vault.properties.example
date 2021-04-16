@@ -1,0 +1,5 @@
+vault_token=df6dkl54.token
+vault_addr=https://vault.example.org
+vault_path=/v1/secret/data/path1/path2/mykey
+vault_jks_file=/tmp/vault.jks
+vault_jks_password=jkspassword
