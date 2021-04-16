@@ -89,3 +89,5 @@ To create your vault.jks keystore, if needed, you have to get the vault SSL cert
 ```
 keytool -importcert -file vault-cert.pem -keystore vault.jks -alias "vault.example.org"
 ```
+
+In production, edit your launch script (.bat or .sh) to include the -Dvault_property parameter.
