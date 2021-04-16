@@ -1,3 +1,5 @@
+[Version française](./LISEZ_MOI.md)
+
 # Vault Data Loader
 
 Use this job to retrieve data from your vault instance to use it in your job. The data retrieved will be put into job context.
