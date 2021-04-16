@@ -77,7 +77,8 @@ When execution job in Talend Studio, set the vault_property file in job paramete
 
 Property file example :
 
-```vault_token=df6dkl54.token
+```
+vault_token=df6dkl54.token
 vault_addr=https://vault.example.org
 vault_path=/v1/secret/data/users/mm/test
 vault_jks_file=/tmp/vault.jks
