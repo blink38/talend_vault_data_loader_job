@@ -62,8 +62,6 @@ The *loadDataIntoContext()* function in *VaultDataLoader* class will read data f
 ![image info](./screenshots/vault-5.png)
 
 
-
-
 ### 4. Configure execution
 
 Configuration must be stored in a property file. Set the system property *vault_property* at execution time with the full path of this property file.
