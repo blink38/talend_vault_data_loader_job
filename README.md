@@ -9,7 +9,7 @@ Vault keys will be inject into context into variables prefixed with 'vault_' if 
 
 For example, those secret will be exported as 
 
- * vault_passowrd
+ * vault_password
  * vault_username
  * vault_host
  * vault_base
@@ -55,7 +55,7 @@ In **tJavaRow** component, sync schema and add the following code :
 VaultDataLoader.loadDataIntoContext(context, input_row.vault_data);
 ```
 
-The *loadDataIntoContext()* function in *VaultDataLoader* class with read data from *vault_data* Document, and inject them into context.
+The *loadDataIntoContext()* function in *VaultDataLoader* class will read data from *vault_data* Document, and inject them into context.
 
 ![image info](./screenshots/vault-5.png)
 
@@ -85,7 +85,7 @@ vault_jks_file=/tmp/vault.jks
 vault_jks_password=jkspassword
 ```
 
-To create your vault.jks keystore, if needed, you have to get the vault SSL certificate and crete the keystore with the following command :
+To create your vault.jks keystore, if needed, you have to get the vault SSL certificate and create the keystore with the following command :
 
 ```
 keytool -importcert -file vault-cert.pem -keystore vault.jks -alias "vault.example.org"
